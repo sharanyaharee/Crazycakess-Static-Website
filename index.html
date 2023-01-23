@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crazy Cakes</title>
+  <link rel="icon" href="./images/icon.png" type="image/gif" sizes="16x16">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./cake.css" type="text/css">
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top ">
+    <div class="container">
+      <a class="navbar-brand text-white fw-bold fs-2 " href="index.html"><img src="./images/icon.png "
+          style="width:2rem;height:2rem;">CRAZY CAKES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold text-dark" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu ml-auto" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#shopbyoccasions">By Occasions</a></li>
+              <li><a class="dropdown-item" href="#shopbycategory">By Category</a></li>
+              <li><a class="dropdown-item" href="#ourpopularcakes">Our Popular Cakes</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold  text-dark" href="#contactus">Contact Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link fw-bold  text-dark " href="#location" tabindex="-1" aria-disabled="true">Location</a>
+          </li>
+        </ul>
+        <form class="d-flex" >
+          <input class="form-control me-2" type="search" placeholder="Search items" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+   <!--carrousel-->
+  <section>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/greencake.jpg" class="d-block w-100 slide" alt="..." >
+        <div class="carousel-caption d-none d-md-block">
+
+          <h2>Beautiful Yummy cakes made with Love & Passion.</h2>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/oreocake.jpg" class="d-block w-100 slide " alt="..."  >
+        <div class="carousel-caption d-none d-md-block">
+
+          <h2 class="text-dark">Making your life sweeter one bite at at time.</h2>
+        </div>
+      </div>
+      <div class="carousel-item ">
+        <img src="./images/spongecake.jpg" class="d-block w-100 slide" alt="..." >
+        <div class="carousel-caption d-none d-md-block">
+
+          <h2>Customise your Cakes,Cupcakes,Cookies...</h2>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+  <!--category section-->
+  <section>
+  <div class="pt-5 my-5"  id="shopbycategory">
+    <h3 class="fw-bold text-center ">Shop by Categories</h3>
+  </div>
+  <div class="container px-5">
+    <div class="row">
+      <div class="col-12 col-md-4 " >
+        <div class="card border-1 border-warning" style="height:39em" >
+          <img src="./images/cake.jpg" class="card-img-top img-fluid" alt="..."  style="width:25em;height:20em">
+          <div class="card-body">
+            <h5 class="card-title">Cakes</h5>
+            <p class="card-text">From first birthday cakes to more sophisticated cakes for adults, our selection of
+              beautiful birthday cakes has it all. For any occassion Crazy Cakes is gonna deliver you the scrumptious
+              truly spectacular cake!!</p>
+            <div class="text-center"><a href="#" class="btn btn-primary btn-danger">View Options</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="card border-1 border-warning" style="height:39em">
+          <img src="./images/Cakesicles.jpg" class="card-img-top img-fluid" alt="..." style="width:25em;height:20em" >
+          <div class="card-body">
+            <h5 class="card-title">Cakesicles</h5>
+            <p class="card-text">Comes in a custom exclusive box of Scrumptious Sugar, perfect for gifting! We make
+              these scrumptious cakesicles with really any combination of cake, frosting and coating you can think of!
+            </p>
+            <div class="text-center"><a href="#" class="btn btn-primary btn-danger">View Options</a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card border-1 border-warning" style="height:39em">
+          <img src="./images/desserts.jpg" class="card-img-top img-fluid" alt="..." style="width:25em;height:20em">
+          <div class="card-body">
+            <h5 class="card-title">Desserts</h5>
+            <p class="card-text">Every dessert at Crazy Cakes is made from scratch in our on-site kitchen. Apart from
+              satiating your taste buds, desserts are always appreciated in parties and celebrations. </p>
+            <div class="text-center"><a href="#" class="btn btn-primary btn-danger  ">View Options</a></div>
+          </div>
+        </div>
+      </div>
+      <div>
+
+        <div class="row py-3">
+
+          <div class="col-12 col-md-4">
+            <div class="card border-1 border-warning" style="height:30em" >
+              <img src="./images/JAR.jpg" class="card-img-top img-fluid" alt="..." style="width:25em;height:20em">
+              <div class="card-body">
+                <h5 class="card-title">Jar Cakes</h5>
+                <p class="card-text">Cake in a Jar or Mason Jar Cakes are a fun, portable, and customizable dessert,
+                  perfect for gifts, parties, and holidays! Order your favourite flavoured JarCake..</p>
+                <div class="text-center"><a href="#" class="btn btn-primary btn-danger">View Options</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card border-1 border-warning " style="height:30em">
+              <img src="./images/cupacake3.jpg" class="card-img-top img-fluid" alt="..." style="width:25em;height:20em">
+              <div class="card-body">
+                <h5 class="card-title">Cupcakes</h5>
+                <p class="card-text ">The most delicious flavoured cupcakes your tongue might have ever witnessed. Mouth
+                  watery stuff which provides you extreme delight.</p>
+                <div class="text-center"><a href="#" class="btn btn-primary btn-danger">View Options</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card border-1 border-warning" style="height:30em" >
+              <img src="./images/muffins.jpg" class="card-img-top img-fluid" alt="..." style="width:25em;height:20em">
+              <div class="card-body">
+                <h5 class="card-title">Muffins</h5>
+                <p class="card-text ">Brownies are available with and without eggs. Our basic brownies are plain, with
+                  nuts, with rainbow chocolate chips. The brownies can be customised.</p>
+                <div class="text-center"><a href="#" class="btn btn-primary btn-danger">View Options</a></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+
+  <!--Occasion section-->
+  <section>
+  <div>
+    <h3 class="fw-bold text-center ">Shop by Occasions</h3>
+
+  </div>
+  <div class="container py-5" id="shopbyoccasions">
+    <div class="row my-5">
+
+      <div class="col-3">
+        <div class="card text-center" >
+          <img class="card-img-top img-fluid" src="./images/birthday.jpg" alt="Card image cap" >
+          <div class="card-body">
+            <p class="card-text fw-bold">Birthday Special</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-center" >
+          <img class="card-img-top img-fluid" src="./images/newyear.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text fw-bold">NewYear Theme</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-3">
+        <div class="card text-center" >
+          <img class="card-img-top img-fluid" src="./images/babyshower.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text fw-bold">Baby Shower</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-3">
+        <div class="card text-center" >
+          <img class="card-img-top img-fluid" src="./images/anniversary.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text fw-bold">Anniversary Special</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col-3">
+        <div class="card text-center" >
+          <img class="card-img-top" src="./images/customised.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text fw-bold">Customised</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-center" >
+          <img class="card-img-top" src="./images/generalcelebrations.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text fw-bold">General Celebration</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-center" >
+          <img class="card-img-top" src="./images/engagement.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text fw-bold">Engagement Special</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card text-center">
+          <img class="card-img-top" src="./images/farewell.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text fw-bold">Farewell Cakes</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+    <!--footer-->
+
+    <div class="container-fluid bg-warning pt-5">
+      <div class="row">
+        <div class="col-4">
+          <h3 class=" fs-5" id="contactus">Contact Us</h3>
+          <hr>
+          <span class="fw-bold">Crazy Cakes</span>
+           <br>Molikkav
+            <br> Kasargode
+            <br>
+      <img src="./images/mail.png" style="height:1rem; width:1rem">
+        Crazycakes@gmail.com 
+          <br>
+          <img src="./images/call.png" style="height:1rem; width:1rem">:0123456
+
+        </div>
+        <div class="col-4">
+          <h3 class=" fs-5">Reach Us</h3>
+          <hr>
+          <a href=""><img src="./images/facebook.png" style="height:2rem; width:2rem;"></a>
+          <a href=""><img src="./images/twitter.png" style="height:2rem; width:2rem;"></a>
+          <a href=""><img src="./images/instagram.png" style="height:2rem; width:2rem;"></a>
+        </div>
+        <div class="col-4">
+          <h3 class=" fs-5" id="location">Location</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31161.947032054482!2d74.96649684067042!3d12.500020984644365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba48267eddafce5%3A0x2704599d65264b1a!2sMOVIEMAX%20CIRCLE!5e0!3m2!1sen!2sae!4v1674132008414!5m2!1sen!2sae" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>
